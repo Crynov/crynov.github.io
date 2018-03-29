@@ -1,0 +1,70 @@
+
+
+
+#avatar{
+	color: white;
+	font-family: Impact;
+	font-size: 100px;
+	border-radius: 50%;
+	width: 600px;
+	margin-top: 120px; 
+}
+
+#vksteamdis{
+	font-size: 30px;
+	margin-top: 0px;
+	border-radius: 50%;
+	height: 60px;
+	padding: 1px;
+}
+
+.bg{
+
+	background-image: url(../img/bg1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.textkray{
+	color: white;
+	font-size: 70px;
+	font-family: Arial;
+	height: 90px;
+	padding: 0px;
+	text-shadow: 2px 5px 10px #000000 ;
+}
+
+#textkrayn{
+	font-size: 70px;
+	font-family: Arial;
+	height: 90px;
+	padding: 0px;
+	text-shadow: 2px 5px 10px #000000 ;
+}
+
+a {
+    color: white;
+    font-family: Arial;
+    font-size: 40px;
+    text-decoration: none;
+    text-shadow: 2px 5px 10px #000000 ;
+}
+a:hover {
+    color: #EBEBEB;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Molle:400italic&subset=latin,latin-ext);
+body{
+background-color: hsla(0,0%,0%,1);
+margin: 0px;
+overflow: hidden;
+font-family: 'Molle', cursive;
+}
+h2{
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate( -50%, -50%);
+  font-size:3em;
+  color:hsla(255, 255%, 255%, .1);
+}
