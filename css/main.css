@@ -20,9 +20,11 @@
 
 .bg{
 
-	background-image: url(../img/bg1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+background: url('../img/bg1.jpg') no-repeat center center fixed #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .textkray{
