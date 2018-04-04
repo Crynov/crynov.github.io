@@ -1,0 +1,71 @@
+#myProgress {
+    width: 50%;
+    background-color: #3508CE;
+        width: 700px;
+        border: 1px solid black;
+        position: relative;
+        margin: auto;
+        padding: 0;
+        top: 380px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+}
+#myBar {
+    height: 23px;
+    background-color: #09F8FC;
+    	box-shadow: 2px 5px 10px #000000 ;
+}
+
+.textkray{
+	color: white;
+	font-size: 30px;
+	font-family: Arial;
+	text-align: center;
+	position: relative;
+	top: 390px;
+		text-shadow: 2px 5px 10px #000000 ;
+}
+
+.texthost{
+	color: white;
+	font-size: 30px;
+	font-family: Arial;
+	text-align: center;
+	position: relative;
+	top: 360px;
+	text-shadow: 2px 5px 10px #000000 ;
+}
+
+.textpidor{
+	color: white;
+	font-size: 8px;
+	font-family: Arial;
+	text-align: center;
+	position: relative;
+	top: -66px;
+	right: -845px;
+	text-shadow: 2px 5px 10px #000000 ;
+}
+
+.textdetails{
+	color: white;
+	font-size: 30px;
+	font-family: Arial;
+	text-align: center;
+	position: relative;
+	top: 450px;
+	text-shadow: 2px 5px 10px #000000 ;
+}
+
+
+
+.bg{
+
+background: url('../img/bg.gif') no-repeat center center fixed #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgba(0,0,0,50)
+}
