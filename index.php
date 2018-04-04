@@ -1,3 +1,6 @@
+<?php
+	include '../misha/php/check.php';
+?>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -35,7 +38,8 @@ function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamem
 	<div class="textpidor"> привет, удачи на нашем сервере, люблю тебя! ❤</div>
 
 		<div id="status" class="textkray">Загружаем файлы</div>
-			<div class="textdetails">Карта: rp_downtown_tits</div> 
+					<div class="textdetails"><?php echo 'Карта: '.$infor1["map"]; ?>
+		</div>
 
 
 
