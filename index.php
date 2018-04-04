@@ -1,5 +1,5 @@
 <?php
-	include '../crynov.github.io/php/check.php';
+	include '../php/check.php';
 ?>
 <html lang="en">
 <head>
