@@ -10,15 +10,52 @@
 
 
 
-function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode )
 
-{
+      var totalFiles, neededFiles, percent,status,dfile,sp1,a;
+      tip=new Array('');
+    
+    function SetFilesTotal( total ) {
+        totalFiles = total;
+    }
+    function SetFilesNeeded( needed ) {
+         neededFiles = needed;
+            var filesRemaining = Math.max(0, totalFiles - neededFiles),
+                sp = (totalFiles > 0) ?
+                    (filesRemaining / totalFiles) : 1;
+                        sp = Math.round(sp * 100);
 
-    $("#mapName").text(mapname);
+         sp1 = sp + "%"
 
-    $("#gameMode").text(gamemode);
+         document.getElementById("bar").style.width=sp1;
+        
+    }
 
-}
+    function SetStatusChanged( status )
+    {
+        var status=status;
+        if (status == 'Sending client info...') {
+             document.getElementById("bar").style.width='100%';
+             document.getElementById("status").innerHTML='Отправка данных серверу';
+        }
+
+        if(status == 'Workshop Complete'){
+            document.getElementById("status").innerHTML='Выполнена загрузка мастерской';
+        }
+
+        
+
+    }
+    function DownloadingFile( fileName )
+    {
+        var dfile=fileName;
+        document.getElementById("status").innerHTML='Скачиваем файл '+dfile;
+    }
+
+    function random(min,max)
+    {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    
 
 </script>
 <title> LOADING </title>
